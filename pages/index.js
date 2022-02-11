@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Layout from "../components/Layout";
-import { experiences, skills } from "../profile";
+import { experiences, projects, skills } from "../profile";
 
 const Index = () => (
   <>
@@ -92,16 +92,26 @@ const Index = () => (
                 <h1 className="text-center text-light">Portfolio</h1>
               </div>
 
-              <div className="col-md-4">
-                <div className="card">
-                  <img src="portfolio1.jpeg" alt="" />
-                  <div className="card-body">
-                    <h3>titler</h3>
-                    <p>descriptions</p>
-                    <a href="#!">Know more</a>
+              {projects.map(({ name, description, image }, index) => (
+                <div className="col-md-4 p-2" key={index}>
+                  <div className="card h-100">
+                    <div className="overflow">
+                      <img src={image} alt="" className="card-img-top" />
+                    </div>
+                    <div className="card-body">
+                      <h3>{name}</h3>
+                      <p>{description}</p>
+                      <a href="#!">Know more</a>
+                    </div>
                   </div>
                 </div>
-              </div>
+              ))}
+            </div>
+
+            <div className="text-center mt-4">
+              <Link href="/portfolio">
+                <a className="btn btn-outline-light">More Projects</a>
+              </Link>
             </div>
           </div>
         </div>

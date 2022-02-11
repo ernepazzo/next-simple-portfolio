@@ -56,6 +56,31 @@ export const projects = [
   {
     name: "Awesome website 1",
     description: "Pretium fusce id velit ut tortor pretium viverra. Amet commodo nulla. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-    image: "portfolio 1.jpeg"
+    image: "portfolio1.jpeg"
+  },
+  {
+    name: "Awesome website 2",
+    description: "Pretium fusce id velit ut tortor pretium viverra. Amet commodo nulla. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    image: "portfolio2.jpg"
+  },
+  {
+    name: "Awesome website 3",
+    description: "Pretium fusce id velit ut tortor pretium viverra. Amet commodo nulla. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    image: "portfolio3.png"
+  },
+  {
+    name: "Awesome website 4",
+    description: "Pretium fusce id velit ut tortor pretium viverra. Amet commodo nulla. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    image: "portfolio4.png"
+  },
+  {
+    name: "Awesome website 5",
+    description: "Pretium fusce id velit ut tortor pretium viverra. Amet commodo nulla. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    image: "portfolio5.jpeg"
+  },
+  {
+    name: "Awesome website 6",
+    description: "Pretium fusce id velit ut tortor pretium viverra. Amet commodo nulla. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    image: "portfolio6.jpeg"
   },
 ];
