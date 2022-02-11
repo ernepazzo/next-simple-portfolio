@@ -55,32 +55,62 @@ export const experiences = [
 export const projects = [
   {
     name: "Awesome website 1",
-    description: "Pretium fusce id velit ut tortor pretium viverra. Amet commodo nulla. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-    image: "portfolio1.jpeg"
+    description:
+      "Pretium fusce id velit ut tortor pretium viverra. Amet commodo nulla. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    image: "portfolio1.jpeg",
   },
   {
     name: "Awesome website 2",
-    description: "Pretium fusce id velit ut tortor pretium viverra. Amet commodo nulla. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-    image: "portfolio2.jpg"
+    description:
+      "Pretium fusce id velit ut tortor pretium viverra. Amet commodo nulla. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    image: "portfolio2.jpg",
   },
   {
     name: "Awesome website 3",
-    description: "Pretium fusce id velit ut tortor pretium viverra. Amet commodo nulla. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-    image: "portfolio3.png"
+    description:
+      "Pretium fusce id velit ut tortor pretium viverra. Amet commodo nulla. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    image: "portfolio3.png",
   },
   {
     name: "Awesome website 4",
-    description: "Pretium fusce id velit ut tortor pretium viverra. Amet commodo nulla. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-    image: "portfolio4.png"
+    description:
+      "Pretium fusce id velit ut tortor pretium viverra. Amet commodo nulla. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    image: "portfolio4.png",
   },
   {
     name: "Awesome website 5",
-    description: "Pretium fusce id velit ut tortor pretium viverra. Amet commodo nulla. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-    image: "portfolio5.jpeg"
+    description:
+      "Pretium fusce id velit ut tortor pretium viverra. Amet commodo nulla. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    image: "portfolio5.jpeg",
   },
   {
     name: "Awesome website 6",
-    description: "Pretium fusce id velit ut tortor pretium viverra. Amet commodo nulla. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-    image: "portfolio6.jpeg"
+    description:
+      "Pretium fusce id velit ut tortor pretium viverra. Amet commodo nulla. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    image: "portfolio6.jpeg",
+  },
+];
+
+export const posts = [
+  {
+    title: "React",
+    content:
+      "Pretium fusce id velit ut tortor pretium viverra. Amet commodo nulla. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    imageURL:
+      "https://www.syntonize.com/wp-content/uploads/2021/02/React-Syntonize.png",
+  },
+  {
+    title: "Angular",
+    content:
+      "Pretium fusce id velit ut tortor pretium viverra. Amet commodo nulla. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    imageURL:
+      "https://victorroblesweb.es/wp-content/uploads/2019/05/angular-8.png",
+  },
+  {
+    title: "Vue",
+    content:
+      "Pretium fusce id velit ut tortor pretium viverra. Amet commodo nulla. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    imageURL:
+      "https://www.codigojs.com/media/thumbs/articles/2020/03/02/como-usar-vue.jpeg.1024x768_q90_crop.jpg",
   },
 ];
